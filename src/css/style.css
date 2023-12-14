@@ -23,7 +23,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: var(--body-font);
 }
 
@@ -2980,12 +2980,10 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
-.team-section-area .team-wrapper .team {
+/* .team-section-area .team-wrapper .team {
   width: 33.33%;
-}
+} */
 
 .team-single-items {
   margin-bottom: 30px;
@@ -3620,9 +3618,7 @@ ul {
   color: var(--main-color-one);
 }
 
-.our-vision-item {
-  margin-top: 40px;
-}
+
 .our-vision-item .vision-bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -8851,16 +8847,16 @@ input[type=checkbox] {
   -webkit-animation: updown 3s both linear alternate infinite;
           animation: updown 3s both linear alternate infinite;
 }
-.header-area .lottie-shape {
+.lottie-shape {
   position: absolute;
   left: 11%;
   z-index: -1;
   max-width: 190px;
 }
-.header-area .lottie-shape .path {
+/* .lottie-shape .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-}
+} */
 .header-area .top-single-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15810,20 +15806,121 @@ ul.blocks-gallery-grid li:before {
   margin-right: 0;
 } */
 
-/* Header css  */
+/* Header css start here */
 .logo-style{
   width: 110px;
 }
 
-.header-slider-one{
-  margin-top: 10em;
+
+/* Home Css start here */
+.home-banner-bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 12em;
 }
-.header-slide1{
-  background-image: url(../image/index/banner/banner1.jpeg);
+.slider-container .carousel-root{
+  margin-top: -44em;
 }
-.header-slide2{
-  background-image: url(../image/index/banner/banner1.jpeg);
+.slider-container .carousel.carousel-slider {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
 }
-.slide-bg{
-  background-image: url(../image/index/banner/banner1.jpeg);
+.slide-container .slide-content h1{
+  color: #fff;
+  font-size: 70px;
+}
+.slide-container .slide-content p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.slider-container .carousel .control-dots .dot {
+  display: none !important;
+}
+.slider-container .carousel .slide {
+  height: 300px;
+}
+.slider-button .bg-red-btn {
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 30px;
+  background: #dd131a;
+  color: #fff;
+  padding: 10px 15px 10px 15px;
+  /* margin-top: 1em; */
+}
+.carousel.carousel-slider .control-arrow {
+  background: #fff !important;
+  /* color: #0081c9 !important; */
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #0081c9;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #0081c9;
+}
+.carousel-status{
+  display: none;
+}
+
+/* our vision section css  */
+.our-vision-bg{
+  background-image: url("/public/img/home/banner/our-vision-banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-vision-item {
+  margin-top: 120px;
+}
+
+/* Our Party Section css  */
+.our-party-bg{
+  background-image: url("/public/img/home/banner/our-party-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Join Now Form Css  */
+.join-form-bg{
+  background-image: url("/public/img/home/banner/dpsa-team.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* DPSA member Section  */
+.team-wrapper .row{
+  flex-wrap: unset !important;
+}
+.btn-wrapper .boxed-btn.btn-sanatory.style-01 {
+  background-color: #0081c9 !important;
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: none;
+  text-transform: capitalize;
+}
+
+/* Latest News Section  */
+.news-bg{
+  background-image: url("/public/img/news/news.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-bg{
+  background-image: url("/public/img/footer/footer-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-wrapper .boxed-btn.political-btn {
+  background-color: #04072e !important;
+  color: #fff;
+  padding: 14px 30px;
+  transition: 0.5s all ease;
+}
+.btn-wrapper .boxed-btn.political-btn:hover {
+  background-color: #fff !important;
+  color: #04072e;
+  transition: 0.5s all ease;
 }

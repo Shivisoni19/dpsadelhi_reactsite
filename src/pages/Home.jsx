@@ -1,9 +1,18 @@
 import React from 'react'
 import TopSlider from '../components/home/TopSlider'
 import { Helmet } from "react-helmet";
+import AboutDPSA from '../components/home/AboutDPSA';
+import OurVision from '../components/home/OurVision';
+import OurPartyHistory from '../components/home/OurPartyHistory';
+import JoinNowForm from '../components/home/JoinNowForm';
+import UpcomingEvents from '../components/home/UpcomingEvents';
+import DonationSection from '../components/home/DonationSection';
+import PoliticalGallery from '../components/home/PoliticalGallery';
+import Members from '../components/home/Members';
+import LatestNews from '../components/home/LatestNews';
 
 const meta = {
-  title: 'The Key Mind',
+  title: 'DPSA | Divyang Para Sports Association of Delhi',
   description: 'I am a description, and I can create multiple tags',
   // canonical: 'http://example.com/path/to/page',
   meta: {
@@ -30,6 +39,15 @@ const Home = () => {
       </Helmet>
 
       <TopSlider/>
+      <AboutDPSA/>
+      <OurVision/>
+      <OurPartyHistory/>
+      <JoinNowForm/>
+      <UpcomingEvents/>
+      <DonationSection/>
+      <PoliticalGallery/>
+      <Members/>
+      <LatestNews/>
     </div>
   )
 }

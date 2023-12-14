@@ -13,6 +13,7 @@ import './css/slick.css';
 import './css/style.css';
 import './App.css'
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 // import { useEffect, useState } from 'react'
 // import { auth } from './firebase'
@@ -27,7 +28,7 @@ function App () {
           <Route exact path='/' element={<Home/>} />
           {/* <Route exact path='/' element={<H/>} /> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   )
