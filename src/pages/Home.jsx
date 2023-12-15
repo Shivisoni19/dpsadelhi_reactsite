@@ -46,7 +46,7 @@ const Home = () => {
       <UpcomingEvents/>
       <DonationSection/>
       <PoliticalGallery/>
-      <Members/>
+      {/* <Members/> */}
       <LatestNews/>
     </div>
   )

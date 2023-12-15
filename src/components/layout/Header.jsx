@@ -6,7 +6,10 @@ const Header = () => {
   return (
     <div>
        <div className="header-wrapper">
-        <HeaderTop/>
+        {/* <div className='bg-blue'> */}
+           <HeaderTop/>
+        {/* </div> */}
+        
         {/* <!-- Header-main start here --> */}
         <div className="header-style-01">
             {/* <!-- support bar area end --> */}

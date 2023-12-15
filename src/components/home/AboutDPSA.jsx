@@ -25,18 +25,28 @@ const AboutDPSA = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="meet-single-items">
-                  <div className="content">
+                  <div className="content text-center">
                     <div className="subtitle wow animate__animated animate__fadeInUp">
-                      <p>know more about</p>
+                      <div className="icon">
+                        <i className="icon-star"></i>
+                        <i className="icon-star"></i>
+                        <i className="icon-star"></i>
+                      </div>
+                      <p>Affiliated to  Paralympic Committee of India (PCI)</p>
                       <div className="icon">
                         <i className="icon-star"></i>
                         <i className="icon-star"></i>
                         <i className="icon-star"></i>
                       </div>
                     </div>
+                    <div className="subtitle wow animate__animated animate__fadeInUp">
+                      <p>(PCI – Recognized by Government of India)</p>
+                    </div>
                     <h4 className="title wow animate__animated animate__fadeInUp">
                       Divyang Para Sports Association of Delhi
                     </h4>
+                    {/* <p><strong className="text-dark">Affiliated to  Paralympic Committee of India (PCI)</strong></p>
+                    <p><strong className="text-dark">(PCI – Recognized by Government of India)</strong></p> */}
                     <p className="description wow animate__animated animate__fadeInUp">
                       The Divyang Para Sports Association of Delhi, operating
                       independently but in collaboration with the Paralympic

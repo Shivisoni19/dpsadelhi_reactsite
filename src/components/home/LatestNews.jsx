@@ -43,7 +43,7 @@ const LatestNews = () => {
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="news-single-items wow animate__animated animate__fadeInUp animate__delay-1s">
-            <div class="news-bg">
+            <div class="news-bg1">
               <span class="even">Event</span>
               <div class="content">
                   <a href="news-single.html"><h4 class="title">Many important brands have given us their trust</h4></a>
@@ -59,7 +59,7 @@ const LatestNews = () => {
           <ul class="news-single-list wow animate__animated animate__fadeInRight animate__delay-2s">
             <li class="news-single-list-items">
               <div class="thumb">
-                <img src="img/news/news.jpg" alt=""/>
+                <img src="img/news/sidenews/news1.jpg" alt=""/>
               </div>
               <div class="content">
                 <span class="date">24th March,2021</span>
@@ -68,7 +68,7 @@ const LatestNews = () => {
             </li>
             <li class="news-single-list-items">
               <div class="thumb">
-              <img src="img/news/news.jpg" alt=""/>
+              <img src="img/news/sidenews/news1.jpg" alt=""/>
               </div>
               <div class="content">
                 <span class="date">24th March,2021</span>
@@ -77,7 +77,7 @@ const LatestNews = () => {
             </li>
             <li class="news-single-list-items">
               <div class="thumb">
-              <img src="img/news/news.jpg" alt=""/>
+              <img src="img/news/sidenews/news1.jpg" alt=""/>
               </div>
               <div class="content">
                 <span class="date">24th March,2021</span>

@@ -29,13 +29,13 @@ const DonationSection = () => {
                 </div>
                 <div className="btn-wrapper margin-top-35 wow animate__animated animate__fadeInUp">
                   <a href="#" className="price-btn">
-                    ₹25
+                    ₹500
                   </a>
                   <a href="#" className="price-btn">
-                    ₹50
+                    ₹1000
                   </a>
                   <a href="#" className="price-btn">
-                    ₹100
+                    ₹5000
                   </a>
                   <a href="#" className="boxed-btn donate-btn btn-sanatory">
                     Donation Now <i className="fas fa-paper-plane"></i>

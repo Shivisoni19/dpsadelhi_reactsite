@@ -39,12 +39,11 @@ const UpcomingEvents = () => {
                 <div className="content">
                   <div className="designation">
                     <span className="event">Event</span>
-                    <span className="date">25 Dec 2023</span>
+                    <span className="date">18th January 2024</span>
                   </div>
-                  <h4 className="title"><a href="event-single.html"> Many important brands have given us</a></h4>
+                  <h4 className="title"><a href="event-single.html"> Delhi State Junior and Sub Junior Para Athletics Trial Under 17 and 19 Boys & Girls </a></h4>
                   <p>
-                    Every pleasures is to welcomed pain avoided owing to the
-                    duty the obligations of business.
+                     Venue: Tyagraj Stadium, New Delhi – 110038
                   </p>
                 </div>
               </div>
@@ -52,12 +51,11 @@ const UpcomingEvents = () => {
                 <div className="content">
                   <div className="designation">
                     <span className="event">Event</span>
-                    <span className="date">31 Dec 2023</span>
+                    <span className="date">5th – 7th March 2024</span>
                   </div>
-                  <h4 className="title"><a href="event-single.html"> Important brands have given us their</a></h4>
+                  <h4 className="title"><a href="event-single.html"> Delhi State Para-Athletics Championship 2023</a></h4>
                   <p>
-                    Every pleasures is to welcomed pain avoided owing to the
-                    duty the obligations of business.
+                    Venue: Tyagraj Stadium, New Delhi – 110038
                   </p>
                 </div>
               </div>
@@ -65,12 +63,11 @@ const UpcomingEvents = () => {
                 <div className="content">
                   <div className="designation">
                     <span className="event">Event</span>
-                    <span className="date">01 Jan 2024</span>
+                    <span className="date">14th March 2024</span>
                   </div>
-                  <h4 className="title"><a href="event-single.html"> Lots of brands have given us their ideas</a></h4>
+                  <h4 className="title"><a href="event-single.html"> Delhi State Para-Powerlifting Championships 2023 (Junior and Senior)</a></h4>
                   <p>
-                    Every pleasures is to welcomed pain avoided owing to the
-                    duty the obligations of business.
+                     Venue: Jawaharlal Nehru Stadium, New Delhi – 110003
                   </p>
                 </div>
               </div>

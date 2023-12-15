@@ -4,7 +4,7 @@ const OurVision = () => {
   return (
     <>
       {/* <!-- Our Vision Section Start --> */}
-      <div className="header-bottom-area margin-top-120">
+      <div className="header-bottom-area margin-top-30">
         <div className="container">
           <div className="political-header-bottom m-top-02">
             <div className="row">
