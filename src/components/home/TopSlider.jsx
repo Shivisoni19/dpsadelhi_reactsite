@@ -12,14 +12,14 @@ const TopSlider = ({id}) => {
           <>'DPSA works on its own and is linked with the Paralympic Committee of India to encourage and grow sporting spirits in people <br/> with disabilities covering both visually and intellectually impaired people. '</> ),
         btnText: '#ParaSportsAssociation',
         // image : 'img/index/green-line-shape.png',
-        link: '/about',
+        link: 'https://www.paralympicindia.org.in/affiliated-state-units.',
       },
       {
         title: 'Known by our abilities, not by our Disabilities',
         description: (<>'An organization that operates independently and is linked to the Paralympic Committee of India is working hard to encourage and grow sports <br/>for people with disabilities. This includes those who have visual and intellectual impairments.'</>),
         btnText: '#DPSA',
         // image : 'img/index/green-line-shape.png',
-        link: '/about',
+        link: 'https://www.paralympicindia.org.in/affiliated-state-units.',
       },
     ];
   
@@ -33,7 +33,7 @@ const TopSlider = ({id}) => {
           />
         </div>
         <div>
-          <Carousel  infiniteLoop>
+          <Carousel  autoplay infiniteLoop>
             {slides.map((slide, index) => (
               <div key={index} className="slide-container">
                 {/* <div className="slide-image">

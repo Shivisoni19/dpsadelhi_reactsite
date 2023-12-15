@@ -12171,7 +12171,7 @@ input[type=checkbox] {
   /* margin-left: 6px; */
 }
 .contact_info_list li.single-info-item .details {
-  margin-left: 12px;
+  /* margin-left: 12px; */
   font-size: 16px;
   line-height: 24px;
   font-family: var(--body-font);
@@ -12179,7 +12179,7 @@ input[type=checkbox] {
   color: rgb(255, 255, 255);
 }
 .contact_info_list li.single-info-item .details.style-01 {
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .contact_info_list li.single-info-item .details.style-02 {
   margin-left: 10px;
@@ -12675,7 +12675,7 @@ input[type=checkbox] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 0px 135px 0px;
+  padding: 250px 0px 135px 0px;
   position: relative;
 }
 .about-us-section-area.about-bg::before {
@@ -15984,4 +15984,37 @@ ul.blocks-gallery-grid li:before {
   background-color: #fff !important;
   color: #04072e;
   transition: 0.5s all ease;
+}
+
+/* About Css start here  */
+.about-bg{
+  background-image: url("/public/img/about/about-us-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.administrative-bg{
+  background-image: url("/public/img/about/about-us-team.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Members Css start here  */
+.member-bg{
+  background-image: url("/public/img/member/member-banner.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Events Css Start here  */
+.event-img{
+  background-image: url("/public/img/events/event1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Gallery css start here  */
+.gallery-single-items{
+  visibility: visible;
+  animation-name: fadeInUp;
 }

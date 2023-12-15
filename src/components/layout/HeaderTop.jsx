@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeaderTop = () => {
   return (
@@ -11,17 +12,17 @@ const HeaderTop = () => {
                 <div className="top-social">
                     <ul className="top-social-share">
                     <li>
-                        <a href="https://www.facebook.com/profile" ><i className="fab fa-facebook-f"></i></a>
+                        <Link to="https://www.facebook.com/dpsadelhi" ><i className="fab fa-facebook-f"></i></Link>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/profile"><i className="fab fa-linkedin-in"></i></a>
+                        <Link to="https://www.instagram.com/@dpsadelhi/" ><i className="fab fa-instagram"></i></Link>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/profile"><i className="fab fa-pinterest-p"></i></a>
+                       <Link to="https://twitter.com/i/flow/login?redirect_after_login=%2Fdpsadelhi%2F" ><i className="fab fa-twitter"></i></Link>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/profile"><i className="fab fa-dribbble"></i></a>
-                    </li>
+                    {/* <li>
+                        <Link to="https://www.facebook.com/profile" ><i className="fab fa-dribbble"></i></Link>
+                    </li> */}
                     </ul>
                 </div>
                 </div>
@@ -32,7 +33,7 @@ const HeaderTop = () => {
                         <i className="icon-phone"></i>
                     </div>
                     <div className="content">
-                        <h5 className="title"><a href="tel:+009-215-5599">009-215-5599</a></h5>
+                        <h5 className="title"><a href="tel:+91-9312779957">+91-9312779957</a></h5>
                     </div>
                     </div>
                     <div className="top-single-item">
@@ -40,7 +41,7 @@ const HeaderTop = () => {
                         <i className="icon-envelope"></i>
                     </div>
                     <div className="content">
-                        <h5 className="title"><a href="mailto:dps@gmail.com">dps@gmail.com</a></h5>
+                        <h5 className="title"><a href="mailto:dpsadelhi@gmail.com">dpsadelhi@gmail.com</a></h5>
                     </div>
                     </div>
                 </div>

@@ -1,10 +1,13 @@
 import React from 'react'
+import MemberHeader from '../components/members/MemberHeader'
+import MemberMain from '../components/members/MemberMain'
 
 const Members = () => {
   return (
-    <div>
-      <h1>Members</h1>
-    </div>
+    <>
+      <MemberHeader/>
+      <MemberMain/>
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutDPSA = () => {
   return (
@@ -32,7 +33,7 @@ const AboutDPSA = () => {
                         <i className="icon-star"></i>
                         <i className="icon-star"></i>
                       </div>
-                      <p>Affiliated to  Paralympic Committee of India (PCI)</p>
+                      <p><Link to="https://www.paralympicindia.org.in/affiliated-state-units">Affiliated to  Paralympic Committee of India (PCI)</Link></p>
                       <div className="icon">
                         <i className="icon-star"></i>
                         <i className="icon-star"></i>

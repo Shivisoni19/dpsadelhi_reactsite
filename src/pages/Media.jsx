@@ -1,10 +1,13 @@
 import React from 'react'
+import MediaHeader from '../components/media/MediaHeader'
+import MediaMain from '../components/media/MediaMain'
 
 const Media = () => {
   return (
-    <div>
-      <h1>Media</h1>
-    </div>
+    <>
+      <MediaHeader/>
+      <MediaMain/>
+    </>
   )
 }
 

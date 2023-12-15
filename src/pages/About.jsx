@@ -1,10 +1,13 @@
 import React from 'react'
+import AboutHeader from '../components/about/AboutHeader'
+import AboutMain from '../components/about/AboutMain'
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <>
+      <AboutHeader/>
+      <AboutMain/>
+    </>
   )
 }
 

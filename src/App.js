@@ -14,6 +14,11 @@ import './css/style.css';
 import './App.css'
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import About from './pages/About';
+import Members from './pages/Members';
+import Media from './pages/Media';
+import Event from './pages/Event';
+import Gallery from './pages/Gallery';
 
 // import { useEffect, useState } from 'react'
 // import { auth } from './firebase'
@@ -26,7 +31,11 @@ function App () {
         <Header/>
         <Routes>
           <Route exact path='/' element={<Home/>} />
-          {/* <Route exact path='/' element={<H/>} /> */}
+          <Route exact path='/about' element={<About/>} />
+          <Route exact path='/members' element={<Members/>} />
+          <Route exact path='/media' element={<Media/>} />
+          <Route exact path='/events' element={<Event/>} />
+          <Route exact path='/gallery' element={<Gallery/>} />
         </Routes>
         <Footer />
       </Router>
