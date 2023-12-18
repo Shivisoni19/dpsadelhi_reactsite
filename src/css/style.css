@@ -4059,7 +4059,8 @@ ul {
   line-height: 28px;
   font-family: var(--body-font);
   font-weight: 700;
-  color: #fff;
+  color: #04072e;
+  /* color: #fff; */
 }
 .contact-page-wrapper .contact-form .content .title-shape {
   position: absolute;
@@ -9969,7 +9970,8 @@ input[type=checkbox] {
     padding: 27px 0px;
   }
   .navbar-area.nav-style-02 .nav-container .navbar-toggler {
-    background-color: #000565;
+    /* background-color: #000565; */
+    background-color: #28a745;
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav {
     background-color: #000565;
@@ -16037,4 +16039,10 @@ ul.blocks-gallery-grid li:before {
 }
 .gallery-content{
   text-align: center !important;
+}
+
+/* Donation Css start here  */
+.donation-form{
+  padding-top: 8em;
+  padding-bottom: 2em;
 }

@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer-top style-02">
       <div className="container">
         <div className="footer-top-border padding-bottom-35">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12">
               <div className="footer-widget footer-bg widget widget_subscribe political">
                   <div className="shape-03"></div>
@@ -21,7 +21,7 @@ const Footer = () => {
                   </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="footer-widget widget">

@@ -39,28 +39,28 @@ export default function GalleryMain() {
       // description: (
       //   <>'DPSA works on its own and is linked with the Paralympic Committee of India to encourage and grow sporting spirits in people <br/> with disabilities covering both visually and intellectually impaired people. '</> ),
       // btnText: '#ParaSportsAssociation',
-      image: "img/gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/Gallery1.jpg",
       // link: '/about',
     },
     {
       title: 'Team1',
-      image: "img/gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/Gallery2.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/Gallery1.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/Gallery2.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/Gallery1.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/Gallery2.jpg",
     },
   ];
 

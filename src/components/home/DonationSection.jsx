@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DonationSection = () => {
   return (
@@ -28,18 +29,18 @@ const DonationSection = () => {
                   </p>
                 </div>
                 <div className="btn-wrapper margin-top-35 wow animate__animated animate__fadeInUp">
-                  <a href="#" className="price-btn">
+                  <Link to="/donation" className="price-btn">
                     ₹500
-                  </a>
-                  <a href="#" className="price-btn">
+                  </Link>
+                  <Link to="/donation" className="price-btn">
                     ₹1000
-                  </a>
-                  <a href="#" className="price-btn">
+                  </Link>
+                  <Link to="/donation" className="price-btn">
                     ₹5000
-                  </a>
-                  <a href="#" className="boxed-btn donate-btn btn-sanatory">
+                  </Link>
+                  <Link to="/donation" className="boxed-btn donate-btn btn-sanatory">
                     Donation Now <i className="fas fa-paper-plane"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

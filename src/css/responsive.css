@@ -1046,6 +1046,18 @@
 }
 
 @media only screen and (max-width: 992px) {
+    /* Header css  */
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #28a745;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+
+    /* -------------------------- */
     .header-area.header-sanatory .senatory-bg-img {
         height: 560px;
         width: 675px;
