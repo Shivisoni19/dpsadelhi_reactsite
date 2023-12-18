@@ -36,7 +36,7 @@ const PoliticalGallery = () => {
                     <div className="gallery-single-items wow animate__animated animate__fadeInLeft">
                       <div className="thumb">
                         <img
-                          src="img/gallery/dpsa-team2.jpg"
+                          src="img/gallery/Gallery5.jpeg"
                           alt="Our Political Gallery"
                         />
                         <div className="cart-icon">
@@ -54,7 +54,7 @@ const PoliticalGallery = () => {
                     <div className="gallery-single-items wow animate__animated animate__fadeInLeft animate__delay-1s">
                       <div className="thumb">
                         <img
-                          src="img/gallery/dpsa-team1.jpeg"
+                          src="img/gallery/Gallery4.jpg"
                           alt="Our Political Gallery"
                         />
                         <div className="cart-icon">
@@ -99,7 +99,7 @@ const PoliticalGallery = () => {
                     <div className="gallery-single-items wow animate__animated animate__fadeInRight">
                       <div className="thumb">
                         <img
-                          src="img/gallery/dpsa-team3.jpeg"
+                          src="img/gallery/Gallery3.jpg"
                           alt="Our Political Gallery"
                         />
                         <div className="cart-icon">
@@ -117,7 +117,7 @@ const PoliticalGallery = () => {
                     <div className="gallery-single-items wow animate__animated animate__fadeInRight animate__delay-1s">
                       <div className="thumb">
                         <img
-                          src="img/gallery/dpsa-team4.jpeg"
+                          src="img/gallery/Gallery2.jpg"
                           alt="Our Political Gallery"
                         />
                         <div className="cart-icon">
