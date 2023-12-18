@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JoinNowForm = () => {
   return (
@@ -16,7 +17,7 @@ const JoinNowForm = () => {
               <div className="contact-page-wrapper wow animate__animated animate__fadeInRight">
                 <div className="contact-form contact-bg">
                   <div className="content desktop-center">
-                    <h6 className="title">Freedom Matters</h6>
+                    <h6 className="title">Contact Now</h6>
                   </div>
                   <form
                     action="request.html"
@@ -83,12 +84,12 @@ const JoinNowForm = () => {
                       </div>
                       <div className="col-md-12">
                         <div className="btn-wrapper desktop-center">
-                          <a
-                            href="#"
+                          <Link
+                            to="/contact"
                             className="boxed-btn political-btn style-01"
                           >
                             JOIN NOW<i className="icon-paper-plan"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -9,37 +9,58 @@ export default function GalleryMain() {
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: true,
+    dots: true,
+    autoplay : true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const gallery = [
     {
-      // title: 'Divyang Para Sports Association of Delhi ',
+      title: 'Team1',
       // description: (
       //   <>'DPSA works on its own and is linked with the Paralympic Committee of India to encourage and grow sporting spirits in people <br/> with disabilities covering both visually and intellectually impaired people. '</> ),
       // btnText: '#ParaSportsAssociation',
-      image: "img/gallery/dpsa-team1.jpeg",
+      image: "img/gallery/Gallery1.jpg",
       // link: '/about',
     },
     {
-      // title: 'Known by our abilities, not by our Disabilities',
-      image: "img/gallery/dpsa-team2.jpg",
+      title: 'Team1',
+      image: "img/gallery/Gallery2.jpg",
     },
     {
-      // title: 'Known by our abilities, not by our Disabilities',
-      image: "img/gallery/dpsa-team3.jpeg",
+      title: 'Team1',
+      image: "img/gallery/Gallery1.jpg",
     },
     {
-      // title: 'Known by our abilities, not by our Disabilities',
-      image: "img/gallery/dpsa-team2.jpg",
+      title: 'Team1',
+      image: "img/gallery/Gallery2.jpg",
     },
     {
-      // title: 'Known by our abilities, not by our Disabilities',
-      image: "img/gallery/dpsa-team3.jpeg",
+      title: 'Team1',
+      image: "img/gallery/Gallery1.jpg",
     },
     {
-      // title: 'Known by our abilities, not by our Disabilities',
-      image: "img/gallery/dpsa-team4.jpeg",
+      title: 'Team1',
+      image: "img/gallery/Gallery2.jpg",
     },
   ];
 
@@ -50,11 +71,13 @@ export default function GalleryMain() {
           {gallery.map((card, index) => (
             <div className="row" key={index}>
               {/* <h2>{card.title}</h2> */}
-              <div className="testimonial-carousel-seven">
+              <div className="testimonial-carousel-seven gallery">
                 <div className="gallery-single-items wow animate__ animate__fadeInUp animated">
                   <div className="thumb style-01">
-                    <img alt={card.title} src={card.image} />
-                    {/* <p>{card.description}</p> */}
+                    <img alt={card.title} src={card.image}/>
+                  </div>
+                  <div className="text-center gallery-title">
+                    <h3>{card.title}</h3>
                   </div>
                 </div>
               </div>

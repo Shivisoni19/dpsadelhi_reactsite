@@ -19,6 +19,7 @@ import Members from './pages/Members';
 import Media from './pages/Media';
 import Event from './pages/Event';
 import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
 
 // import { useEffect, useState } from 'react'
 // import { auth } from './firebase'
@@ -36,6 +37,7 @@ function App () {
           <Route exact path='/media' element={<Media/>} />
           <Route exact path='/events' element={<Event/>} />
           <Route exact path='/gallery' element={<Gallery/>} />
+          <Route exact path='/contact' element={<Contact/>} />
         </Routes>
         <Footer />
       </Router>

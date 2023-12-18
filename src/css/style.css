@@ -12589,7 +12589,7 @@ input[type=checkbox] {
 .custom-logo-link img,
 .site-logo img,
 .footer-logo img {
-  max-width: 180px !important;
+  max-width: 120px !important;
 }
 
 .header-bottom-area {
@@ -15981,8 +15981,10 @@ ul.blocks-gallery-grid li:before {
   transition: 0.5s all ease;
 }
 .btn-wrapper .boxed-btn.political-btn:hover {
-  background-color: #fff !important;
-  color: #04072e;
+  /* background-color: #fff !important;
+  color: #04072e; */
+  background-color: #00a652 !important;
+  color: #fff;
   transition: 0.5s all ease;
 }
 
@@ -16017,4 +16019,22 @@ ul.blocks-gallery-grid li:before {
 .gallery-single-items{
   visibility: visible;
   animation-name: fadeInUp;
+}
+    /* gallery slider  */
+.container-fluid .gallery .slick-dots li button:before {
+  color: #00a652 !important;
+  font-size: 15px !important;
+}
+.slick-dots li.slick-active button:before {
+  color: red !important;
+  font-size: 15px !important; 
+}
+.container-fluid .gallery .slick-dots li button:before {
+  font-size: 15px !important;
+}
+.gallery-title{
+  margin-top: 15px;
+}
+.gallery-content{
+  text-align: center !important;
 }

@@ -25,7 +25,7 @@ const OurPartyHistory = () => {
                     </div>
                   </div>
                   <h4 className="title wow animate__animated animate__fadeInUp">
-                    Join The Fight for Our Freedom
+                    How Our Association Work
                   </h4>
                   <p className="description wow animate__animated animate__fadeInUp">
                     Our association is centred on being in the right place at

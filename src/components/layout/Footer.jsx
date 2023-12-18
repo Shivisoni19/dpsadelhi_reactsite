@@ -16,7 +16,7 @@ const Footer = () => {
                   <div className="header-content style-01">
                       <h4 className="title style-01">Would you like to become one of our members?</h4>
                       <div className="btn-wrapper desktop-center">
-                        <a href="contact.html" className="boxed-btn political-btn style-01">JOIN NOW<i className="fas fa-paper-plane"></i></a>
+                        <Link to="/contact" className="boxed-btn political-btn style-01">JOIN NOW<i className="fas fa-paper-plane"></i></Link>
                       </div>
                   </div>
               </div>
@@ -27,8 +27,7 @@ const Footer = () => {
               <div className="footer-widget widget">
                 <div className="about_us_widget wow animate__animated animate__fadeInUp">
                   <Link to="/" className="footer-logo"> <img src="img/footer/dpsadelhi-footer.png" alt="footer logo"/></Link>
-                  <p>President represented Delaware for 36 years in the U.S. Senate before becoming the 47th Vice
-                    President of the United States.</p>
+                  <p>Divyang Para Sports Association registered under the Society Act of 1860, is linked with the Paralympic Committee of India, dedicated to advancing sports for disabled people. </p>
                     <div className="social-links">
                       <Link to="/"><i className="fab fa-facebook-f"></i></Link>
                       <Link to="/"><i className="fab fa-twitter"></i></Link>
