@@ -1,4 +1,4 @@
-import GooglePayButton from "@google-pay/button-react";
+// import GooglePayButton from "@google-pay/button-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -78,23 +78,13 @@ const DonationForm = () => {
                           ></textarea>
                         </div>
                       </div>
-                      <div className="col-md-6">
+                      <div className="col-md-12">
                         <div className="btn-wrapper desktop-center">
                           <Link
                             to="/contact"
                             className="boxed-btn political-btn style-01"
                           >
                             PAY NOW<i className="icon-paper-plan"></i>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="btn-wrapper desktop-center">
-                          <Link
-                            to="/contact"
-                            className="boxed-btn political-btn style-01"
-                          >
-                            PAY WITH CARD<i className="icon-paper-plan"></i>
                           </Link>
                         </div>
                       </div>

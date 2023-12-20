@@ -21,6 +21,7 @@ import Event from './pages/Event';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Donation from './pages/Donation';
+import Payment from './components/donation/Payment';
 
 // import { useEffect, useState } from 'react'
 // import { auth } from './firebase'
@@ -40,6 +41,7 @@ function App () {
           <Route exact path='/gallery' element={<Gallery/>} />
           <Route exact path='/contact' element={<Contact/>} />
           <Route exact path='/donation' element={<Donation/>} />
+          <Route exact path='/payment' element={<Payment/>} />
         </Routes>
         <Footer />
       </Router>

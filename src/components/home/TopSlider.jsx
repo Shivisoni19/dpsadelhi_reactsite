@@ -28,7 +28,7 @@ const TopSlider = ({id}) => {
         <div className='slide-bg'>
           <img
             className="home-banner-bg"
-            src="img/home/banner/dpsa-banner.jpg"
+            src="img/home/banner/banner-image.jpg"
             alt="Divyang Para Sports Association of Delhi"
           />
         </div>

@@ -11166,6 +11166,7 @@ input[type=checkbox] {
   z-index: 0;
   border-bottom: 1px solid rgba(114, 108, 148, 0.2);
   margin-top: 120px;
+  padding-top: 20px;
 }
 .footer-top.style-01 {
   margin-top: 190px;
@@ -16028,7 +16029,8 @@ ul.blocks-gallery-grid li:before {
   font-size: 15px !important;
 }
 .slick-dots li.slick-active button:before {
-  color: red !important;
+  /* color: red !important; */
+  color: #0081c9 !important;
   font-size: 15px !important; 
 }
 .container-fluid .gallery .slick-dots li button:before {
@@ -16039,6 +16041,9 @@ ul.blocks-gallery-grid li:before {
 }
 .gallery-content{
   text-align: center !important;
+}
+.gallery-single-items{
+  border: 5px solid #fff;
 }
 
 /* Donation Css start here  */

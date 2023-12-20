@@ -39,28 +39,28 @@ export default function GalleryMain() {
       // description: (
       //   <>'DPSA works on its own and is linked with the Paralympic Committee of India to encourage and grow sporting spirits in people <br/> with disabilities covering both visually and intellectually impaired people. '</> ),
       // btnText: '#ParaSportsAssociation',
-      image: "img/gallery/inner-gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/gallery-1.jpg",
       // link: '/about',
     },
     {
       title: 'Team1',
-      image: "img/gallery/inner-gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/gallery-2.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/inner-gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/gallery-3.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/inner-gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/gallery-4.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/inner-gallery/Gallery1.jpg",
+      image: "img/gallery/inner-gallery/gallery-5.jpg",
     },
     {
       title: 'Team1',
-      image: "img/gallery/inner-gallery/Gallery2.jpg",
+      image: "img/gallery/inner-gallery/gallery-6.jpg",
     },
   ];
 
@@ -76,9 +76,9 @@ export default function GalleryMain() {
                   <div className="thumb style-01">
                     <img alt={card.title} src={card.image}/>
                   </div>
-                  <div className="text-center gallery-title">
+                  {/* <div className="text-center gallery-title">
                     <h3>{card.title}</h3>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
