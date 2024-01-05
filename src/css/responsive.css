@@ -2614,6 +2614,18 @@
 
 @media only screen and (max-width: 575px) {
     /* Home Page Six */
+    .vision-single-item-wrapper::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        height: 650px;
+        width: 0px !important;
+        background-color: #EFEFF7;
+        border-radius: 4px;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .header-area.header-sanatory .header-inner-03 .title {
         font-size: 40px;
     }

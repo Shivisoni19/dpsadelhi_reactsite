@@ -22,6 +22,9 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Donation from './pages/Donation';
 import Payment from './components/donation/Payment';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsCondition from './pages/TermsCondition';
+import PageNotFound from './pages/PageNotFound';
 
 // import { useEffect, useState } from 'react'
 // import { auth } from './firebase'
@@ -42,6 +45,9 @@ function App () {
           <Route exact path='/contact' element={<Contact/>} />
           <Route exact path='/donation' element={<Donation/>} />
           <Route exact path='/payment' element={<Payment/>} />
+          <Route exact path='/privacypolicy' element={<PrivacyPolicy/>} />
+          <Route exact path='/termsconditions' element={<TermsCondition/>} />
+          <Route exact path='/error' element={<PageNotFound/>} />
         </Routes>
         <Footer />
       </Router>

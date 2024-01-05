@@ -96,8 +96,8 @@ const Header = () => {
               </div>
               <div className="nav-right-content">
                 <div className="btn-wrapper">
-                  <Link to="https://docs.google.com/forms/d/e/1FAIpQLSclKw9XaqyXNntMqQflGfzjbIOPmjzuzq5mquo3CtJURUJlEg/viewform" className="boxed-btn btn-sanatory">
-                    Registration form
+                  <Link to="/donation" className="boxed-btn btn-sanatory">
+                     Donation Now
                     <i className="icon-paper-plan"></i>
                   </Link>
                 </div>

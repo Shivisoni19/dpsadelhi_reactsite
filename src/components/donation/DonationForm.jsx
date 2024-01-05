@@ -81,7 +81,7 @@ const DonationForm = () => {
                       <div className="col-md-12">
                         <div className="btn-wrapper desktop-center">
                           <Link
-                            to="/contact"
+                            to="/error"
                             className="boxed-btn political-btn style-01"
                           >
                             PAY NOW<i className="icon-paper-plan"></i>

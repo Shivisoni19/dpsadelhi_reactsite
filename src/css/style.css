@@ -3726,6 +3726,9 @@ ul {
 .our-vision-single-item{
   height: 340px;
 }
+.our-vision-single-item{
+  box-shadow: 0 7px 20px rgb(0 166 82 / 28%);
+}
 
 .vision-single-item-wrapper {
   position: relative;
@@ -16050,4 +16053,25 @@ ul.blocks-gallery-grid li:before {
 .donation-form{
   padding-top: 8em;
   padding-bottom: 2em;
+}
+
+/* Error Page Css  */
+.page-not-found-section{
+  padding-top: 12em;
+  text-align: center;
+}
+
+.page-not-found-section .page-not-found-error{
+  font-size: 150px;
+  color: #008B62;
+  text-shadow: 
+    1px 1px 1px #00593E,    
+    2px 2px 1px #00593E,
+    3px 3px 1px #00593E,
+    4px 4px 1px #00593E,
+    5px 5px 1px #00593E,
+    6px 6px 1px #00593E,
+    7px 7px 1px #00593E,
+    8px 8px 1px #00593E,
+    25px 25px 8px rgba(0,0,0, 0.2);
 }
