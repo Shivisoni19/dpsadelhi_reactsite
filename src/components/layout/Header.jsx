@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HeaderTop from './HeaderTop';
+import DonationButton from './DonationButton';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -95,12 +96,7 @@ const Header = () => {
                 </ul>
               </div>
               <div className="nav-right-content">
-                <div className="btn-wrapper">
-                  <Link to="/donation" className="boxed-btn btn-sanatory">
-                     Donation Now
-                    <i className="icon-paper-plan"></i>
-                  </Link>
-                </div>
+                <DonationButton/>
               </div>
             </div>
           </nav>
