@@ -54,18 +54,12 @@ const ContactForm = () => {
         pcode:"",
         message: "",
       });
-      // alert("Data Stored");
-      // Use toast.success to display a success message
       toast.success("Your Data Stored Successfully");
     } else {
-      // alert("Plz fill the Data");
-      // Use toast.error to display an error message
       toast.error("Failed to store data");
      }
     }
     else {
-      // alert("Plz fill the Data");
-      // alert("Plz fill the Data");
       toast.error("Please fill in all the fields");
      }
   };

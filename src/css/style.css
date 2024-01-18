@@ -6566,6 +6566,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   border-radius: 10px;
   margin: -60px 15px 0px 15px;
   position: relative;
+  height: 650px;
 }
 .event-single-items .content.style-01 {
   margin: 0px;
@@ -16015,11 +16016,11 @@ ul.blocks-gallery-grid li:before {
 }
 
 /* Events Css Start here  */
-.event-img{
+/* .event-img{
   background-image: url("/public/img/events/event1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 /* Gallery css start here  */
 .gallery-single-items{

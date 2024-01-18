@@ -1,7 +1,6 @@
 // import GooglePayButton from "@google-pay/button-react";
 import React from "react";
 import { Link } from "react-router-dom";
-import ModelForm from "../ModelForm";
 
 const DonationForm = () => {
   return (
@@ -26,8 +25,8 @@ const DonationForm = () => {
                         <div className="form-group">
                           <input
                             type="text"
-                            name="fname"
-                            placeholder="Full Name"
+                            name="name"
+                            placeholder="Name"
                             className="form-control"
                             required=""
                             aria-required="true"
@@ -89,55 +88,6 @@ const DonationForm = () => {
                           </Link>
                         </div>
                       </div>
-                      {/* <GooglePayButton
-                        environment="TEST"
-                        paymentRequest={{
-                          apiVersion: 2,
-                          apiVersionMinor: 0,
-                          allowedPaymentMethods: [
-                            {
-                              type: "CARD",
-                              parameters: {
-                                allowedAuthMethods: [
-                                  "PAN_ONLY",
-                                  "CRYPTOGRAM_3DS",
-                                ],
-                                allowedCardNetworks: ["MASTERCARD", "VISA"],
-                              },
-                              tokenizationSpecification: {
-                                type: "PAYMENT_GATEWAY",
-                                parameters: {
-                                  gateway: "example",
-                                  gatewayMerchantId: "exampleGatewayMerchantId",
-                                },
-                              },
-                            },
-                          ],
-                          merchantInfo: {
-                            merchantId: "12345678901234567890",
-                            merchantName: "Demo Merchant",
-                          },
-                          transactionInfo: {
-                            totalPriceStatus: "FINAL",
-                            totalPriceLabel: "Total",
-                            totalPrice: "100.00",
-                            currencyCode: "USD",
-                            countryCode: "US",
-                          },
-                          shippingAddressRequired:true,
-                          callbackIntents:["PAYMENT_AUTHORIZATION"]
-                        }}
-                        onLoadPaymentData={(paymentRequest) => {
-                          console.log("load payment data", paymentRequest);
-                        }}
-                        onPaymentAuthorized ={paymentData => {
-                          console.log(paymentData);
-                          return {transactionState: 'SUCCESS'}
-                        }}
-                        existingPaymentMethodRequired = 'false'
-                        buttonColor="Black"
-                        buttonType="buy"
-                      /> */}
                     </div>
                   </form>
                 </div>
