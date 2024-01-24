@@ -57,7 +57,7 @@ const EventMain = () => {
           <div className="row">
             {/* Map over the events array and render content for each event */}
             {events.map((event, index) => (
-              <div key={index} className="col-lg-6">
+              <div key={index} className="col-md-6">
                 <div className="event-single-items">
                   <div className="event-img">
                     <img src={event.imgSrc} alt={`event-${index}`} />

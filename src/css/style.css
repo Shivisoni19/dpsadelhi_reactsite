@@ -2948,7 +2948,7 @@ ul {
   border: 1px solid var(--main-color-one);
   line-height: 32px;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 10px !important;
   font-size: 15px;
   color: var(--main-color-one);
   border-radius: 5px;

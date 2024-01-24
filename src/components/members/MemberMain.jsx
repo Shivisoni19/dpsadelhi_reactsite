@@ -1,185 +1,111 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MemberHeading from "./MemberHeading";
 
 const MemberMain = () => {
+  // Create an array of members
+  const members = [
+    {
+      img: "img/member/member1.jpeg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+    {
+      img: "img/member/member2.jpg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+    {
+      img: "img/member/member3.jpeg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+    {
+      img: "img/member/member4.jpeg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+    {
+      img: "img/member/member5.jpeg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+    {
+      img: "img/member/member6.jpeg",
+      name: "Member Name",
+      designation: "Designation",
+      social: {
+        facebook: "https://www.facebook.com/example",
+        twitter: "https://twitter.com/example",
+        linkedin: "https://www.linkedin.com/in/example",
+        youtube: "https://www.youtube.com/user/example",
+      },
+    },
+  ];
   return (
     <>
       {/* <!-- Volunteer Team Section Start here --> */}
       <div className="team-section-area">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <div className="section-title">
-                <h4 className="title wow animate__animated animate__fadeInUp">
-                  Meet Our Party Volunteer
-                </h4>
-                <p className="description style-03 wow animate__animated animate__fadeInUp">
-                  Every pleasures is to welcomed pain avoided owing to the duty
-                  the obligations of business it will frequently.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="team-wrapper">
-            <div className="team">
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
+          <MemberHeading />
+          <div className="row">
+            {members.map((member, index) => (
+              <div key={index}  className="team col-md-4">
+                <div className="volunteer-single-items-02">
+                  <div className="thum">
+                    <img src={member.img} alt={`member-${index}`} />
                   </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
+                  <div className="content">
+                    <div className="author-meta">
+                      <span className="author-name">{member.name}</span>
+                      <p className="designation">{member.designation}</p>
+                    </div>
+                    <div className="social-links">
+                      {Object.keys(member.social).map((socialMedia, i) => (
+                        <a
+                          key={i}
+                          href={member.social[socialMedia]}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className={`fab fa-${socialMedia}`}></i>
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="team">
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="team style-01">
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="volunteer-single-items-02">
-                <div className="thum">
-                  <img src="img/member/member1.jpeg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="author-meta">
-                    <span className="author-name">Pier Goodman</span>
-                    <p className="designation">MANAGING DIRECTOR</p>
-                  </div>
-                  <div className="social-links">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                    <i className="fab fa-youtube"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
           <div className="btn-wrapper desktop-center padding-top-20">
             <Link to="/" className="boxed-btn btn-sanatory style-01">
