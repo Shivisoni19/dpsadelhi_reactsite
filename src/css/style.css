@@ -1222,7 +1222,7 @@ ul {
   margin-right: 0px;
 }
 .btn-wrapper .boxed-btn.btn-sanatory.style-01:hover {
-  background-color: var(--main-color-one);
+  background-color: var(--main-color-one) !important;
   border-color: var(--main-color-one);
   color: #fff;
 }
@@ -9536,9 +9536,16 @@ input[type=checkbox] {
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li .line .dot.style-02 {
   width: 25px;
 }
-.navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
+/* .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
   color: var(--main-color-one);
+} */
+/* Style for the active link */
+.navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a:focus,
+.navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li a:active {
+  color: var(--main-color-one);
+  /* Add any additional styling for the active link when clicked */
 }
+
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item.menu-item-has-children:before {
   color: var(--main-color-one);
 }
@@ -9885,7 +9892,7 @@ input[type=checkbox] {
   margin-left: 40px;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--main-color-one);
+  /* color: var(--main-color-one); */
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children {
   position: relative;
@@ -10006,7 +10013,7 @@ input[type=checkbox] {
     line-height: 30px;
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-    color: var(--main-color-one);
+    /* color: var(--main-color-one); */
   }
   .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li.current-menu-item.menu-item-has-children:before {
     color: var(--main-color-one);

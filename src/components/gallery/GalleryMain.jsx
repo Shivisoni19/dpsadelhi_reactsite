@@ -62,12 +62,72 @@ export default function GalleryMain() {
       title: 'Team1',
       image: "img/gallery/inner-gallery/gallery-6.jpg",
     },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-6.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-7.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-8.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-9.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-10.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-11.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-12.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-13.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-14.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-15.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-16.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-17.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-18.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-19.jpg",
+    },
+    {
+      title: 'Team1',
+      image: "img/gallery/inner-gallery/gallery-20.jpg",
+    },
   ];
 
   return (
     <>
       <div className="container-fluid">
-        <Slider {...sliderSettings}>
+        <Slider {...sliderSettings} showThumbs={false}>
           {gallery.map((card, index) => (
             <div className="row" key={index}>
               {/* <h2>{card.title}</h2> */}

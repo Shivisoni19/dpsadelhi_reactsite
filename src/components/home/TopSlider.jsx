@@ -33,7 +33,7 @@ const TopSlider = ({id}) => {
           />
         </div>
         <div>
-          <Carousel  autoplay infiniteLoop>
+          <Carousel  autoplay infiniteLoop showThumbs={false}>
             {slides.map((slide, index) => (
               <div key={index} className="slide-container">
                 {/* <div className="slide-image">

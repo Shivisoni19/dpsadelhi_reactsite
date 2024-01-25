@@ -6,7 +6,7 @@ const MemberMain = () => {
   // Create an array of members
   const members = [
     {
-      img: "img/member/member1.jpeg",
+      img: "img/member/member.jpg",
       name: "Member Name",
       designation: "Designation",
       social: {
@@ -17,7 +17,7 @@ const MemberMain = () => {
       },
     },
     {
-      img: "img/member/member2.jpg",
+      img: "img/member/member.jpg",
       name: "Member Name",
       designation: "Designation",
       social: {
@@ -28,7 +28,7 @@ const MemberMain = () => {
       },
     },
     {
-      img: "img/member/member3.jpeg",
+      img: "img/member/member.jpg",
       name: "Member Name",
       designation: "Designation",
       social: {
@@ -38,39 +38,39 @@ const MemberMain = () => {
         youtube: "https://www.youtube.com/user/example",
       },
     },
-    {
-      img: "img/member/member4.jpeg",
-      name: "Member Name",
-      designation: "Designation",
-      social: {
-        facebook: "https://www.facebook.com/example",
-        twitter: "https://twitter.com/example",
-        linkedin: "https://www.linkedin.com/in/example",
-        youtube: "https://www.youtube.com/user/example",
-      },
-    },
-    {
-      img: "img/member/member5.jpeg",
-      name: "Member Name",
-      designation: "Designation",
-      social: {
-        facebook: "https://www.facebook.com/example",
-        twitter: "https://twitter.com/example",
-        linkedin: "https://www.linkedin.com/in/example",
-        youtube: "https://www.youtube.com/user/example",
-      },
-    },
-    {
-      img: "img/member/member6.jpeg",
-      name: "Member Name",
-      designation: "Designation",
-      social: {
-        facebook: "https://www.facebook.com/example",
-        twitter: "https://twitter.com/example",
-        linkedin: "https://www.linkedin.com/in/example",
-        youtube: "https://www.youtube.com/user/example",
-      },
-    },
+    // {
+    //   img: "img/member/member.jpg",
+    //   name: "Member Name",
+    //   designation: "Designation",
+    //   social: {
+    //     facebook: "https://www.facebook.com/example",
+    //     twitter: "https://twitter.com/example",
+    //     linkedin: "https://www.linkedin.com/in/example",
+    //     youtube: "https://www.youtube.com/user/example",
+    //   },
+    // },
+    // {
+    //   img: "img/member/member.jpg",
+    //   name: "Member Name",
+    //   designation: "Designation",
+    //   social: {
+    //     facebook: "https://www.facebook.com/example",
+    //     twitter: "https://twitter.com/example",
+    //     linkedin: "https://www.linkedin.com/in/example",
+    //     youtube: "https://www.youtube.com/user/example",
+    //   },
+    // },
+    // {
+    //   img: "img/member/member.jpg",
+    //   name: "Member Name",
+    //   designation: "Designation",
+    //   social: {
+    //     facebook: "https://www.facebook.com/example",
+    //     twitter: "https://twitter.com/example",
+    //     linkedin: "https://www.linkedin.com/in/example",
+    //     youtube: "https://www.youtube.com/user/example",
+    //   },
+    // },
   ];
   return (
     <>

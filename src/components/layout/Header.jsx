@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import HeaderTop from './HeaderTop';
 import DonationButton from './DonationButton';
 
@@ -36,63 +36,77 @@ const Header = () => {
                 </button>
               </div>
               <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="bizcoxx_main_menu">
-              <ul className="navbar-nav political">
-                    <li className="menu-item-has-children current-menu-item">
-                    <Link to="/">Home</Link>
+                <ul className="navbar-nav political">
+                  <li>
+                     <Link to="/">
+                        Home
+                      </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/about">About Us</Link>
+                  </li>
+                  <li>
+                      <Link to="/about" >
+                        About
+                      </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/members">Members</Link>
+                  </li>
+                  <li>
+                    <Link to="/members">
+                      Members
+                    </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/media">Media</Link>
+                  </li>
+                  <li>
+                    <Link to="/media">
+                      Media
+                    </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/events">Events</Link>
+                  </li>
+                  <li>
+                    <Link to="/events">
+                      Events
+                    </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/gallery">Gallery</Link>
-                    <div className="line style-01">
-                        <span className="dot"></span>
-                        <span className="dot"></span>
-                        <span className="dot style-02"></span>
-                    </div>
-                    </li>
-                    <li className="menu-item-has-children">
-                    <Link to="/contact">Contact Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/gallery">
+                      Gallery
+                    </Link>
                     <div className="line">
                         <span className="dot"></span>
                         <span className="dot"></span>
                         <span className="dot style-02"></span>
                     </div>
-                    </li>
+                  </li>
+                  <li>
+                    <Link to="/contact">
+                      Contact Us
+                    </Link>
+                    <div className="line">
+                        <span className="dot"></span>
+                        <span className="dot"></span>
+                        <span className="dot style-02"></span>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div className="nav-right-content">
