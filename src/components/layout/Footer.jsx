@@ -56,7 +56,7 @@ const Footer = () => {
                     </div> */}
                     <div className="details style-01">
                      <span className='mr-2'><i className="icon-location"></i></span>
-                    Regd. Off:- 18 F/F, Village Chilia, Near Shiv Mandir, Delhi -11009
+                    Regd. Off:- 18 F/F, Village Chilia, Near Shiv Mandir, Delhi -110091
                     </div>
                   </li>
                   <li className="single-info-item">
@@ -113,10 +113,10 @@ const Footer = () => {
                   </span>
                 </h4>
                 <ul>
-                  <li><Link to="/">Privacy Policy</Link></li>
-                  <li><Link to="/">Terms and Conditions</Link></li>
+                  <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                  <li><Link to="/terms-conditions">Terms and Conditions</Link></li>
                   <li><Link to="/">Support</Link></li>
-                  <li><Link to="/">FAQ</Link></li>
+                  <li><Link to="/member">Members</Link></li>
                 </ul>
               </div>
             </div>
@@ -134,9 +134,9 @@ const Footer = () => {
                 </h4>
                 <ul>
                   <li><Link to="/about">About Us</Link></li>
-                  <li><Link to="/about">Gallery</Link></li>
-                  <li><Link to="/about">Media</Link></li>
-                  <li><Link to="/about">Contact</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                  <li><Link to="/media">Media</Link></li>
+                  <li><Link to="/contact">Contact</Link></li>
                 </ul>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="copyright-area-inner">
-                  Copyright © 2023 DPSA(Divyang Para Sports Association of Delhi). All Rights Reserved.
+                  Copyright © 2023-24 DPSA(Divyang Para Sports Association of Delhi). All Rights Reserved.
                 </div>
               </div>
             </div>

@@ -46,8 +46,8 @@ function App () {
           <Route exact path='/contact' element={<Contact/>} />
           <Route exact path='/donation' element={<Donation/>} />
           <Route exact path='/payment' element={<Payment/>} />
-          <Route exact path='/privacypolicy' element={<PrivacyPolicy/>} />
-          <Route exact path='/termsconditions' element={<TermsCondition/>} />
+          <Route exact path='/privacy-policy' element={<PrivacyPolicy/>} />
+          <Route exact path='/terms-conditions' element={<TermsCondition/>} />
           <Route exact path='/error' element={<PageNotFound/>} />
           <Route exact path='/form' element={<ModelForm/>} />
         </Routes>

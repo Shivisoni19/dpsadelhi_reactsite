@@ -42,7 +42,7 @@ const ContactMain = () => {
                 </div>
                 <div className="content">
                   <span className="title">Location</span>
-                  <p>Regd. Off:- 18 F/F, Village Chilia, Near Shiv Mandir, Delhi -11009</p>
+                  <p>Regd. Off:- 18 F/F, Village Chilia, Near Shiv Mandir, Delhi -110091</p>
                 </div>
               </div>
             </div>
