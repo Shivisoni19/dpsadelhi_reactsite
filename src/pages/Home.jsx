@@ -10,6 +10,7 @@ import DonationSection from '../components/home/DonationSection';
 import PoliticalGallery from '../components/home/PoliticalGallery';
 import Members from '../components/home/Members';
 import LatestNews from '../components/home/LatestNews';
+import BioSection from '../components/home/BioSection';
 
 const meta = {
   title: 'DPSA | Divyang Para Sports Association of Delhi',
@@ -40,6 +41,7 @@ const Home = () => {
 
       <TopSlider/>
       <AboutDPSA/>
+      <BioSection/>
       <OurVision/>
       <OurPartyHistory/>
       <JoinNowForm/>

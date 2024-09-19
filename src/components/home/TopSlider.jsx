@@ -28,7 +28,7 @@ const TopSlider = ({id}) => {
         <div className='slide-bg'>
           <img
             className="home-banner-bg"
-            src="img/home/banner/banner-image.jpg"
+            src="img/home/banner/main-banner.jpeg"
             alt="Divyang Para Sports Association of Delhi"
           />
         </div>
@@ -40,10 +40,10 @@ const TopSlider = ({id}) => {
                   <img src={slide.image} alt={slide.title} />
                 </div> */}
                 <div className="slide-content">
-                <svg viewBox="0 0 191.6 78.6" className="lottie-shape">
+                {/* <svg viewBox="0 0 191.6 78.6" className="lottie-shape">
                   <path class="path" fill="none" stroke="#DD131A" stroke-width="4.5" stroke-linecap="round" d="M186.3,17.5c0,0-36.4-18.2-92.3-14.7S1.4,29.6,2.9,47.8s34.4,25.9,62.6,28s79.9-1.5,108.2-14.9
                 s12.8-31.8-5.9-37.7c-26.4-8.4-49.5-9.5-49.5-9.5"/>
-                </svg>
+                </svg> */}
                   <h1>{slide.title}</h1>
                   <p>{slide.description}</p>
                   <div className='slider-button'>

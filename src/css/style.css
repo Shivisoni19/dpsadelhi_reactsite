@@ -15880,7 +15880,8 @@ ul.blocks-gallery-grid li:before {
   padding-top: 12em;
 }
 .slider-container .carousel-root{
-  margin-top: -44em;
+  /* margin-top: -44em; */
+  margin-top: -68em;
 }
 .slider-container .carousel.carousel-slider {
   margin: 0;
@@ -15889,6 +15890,7 @@ ul.blocks-gallery-grid li:before {
 }
 .slide-container .slide-content h1{
   color: #fff;
+  /* color: #dd131a; */
   font-size: 70px;
 }
 .slide-container .slide-content p{
@@ -15900,7 +15902,8 @@ ul.blocks-gallery-grid li:before {
   display: none !important;
 }
 .slider-container .carousel .slide {
-  height: 300px;
+  /* height: 300px; */
+  height: 830px;
 }
 .slider-button .bg-red-btn {
   font-size: 17px;
@@ -15934,6 +15937,20 @@ ul.blocks-gallery-grid li:before {
 
 .our-vision-item {
   margin-top: 120px;
+}
+
+/* Bio Section  */
+.our-party-section-area .bio-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  min-height: 650px;
+  width: 100%;
+}
+.bio-bg{
+  background-image: url("/public/img/member/member8.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Our Party Section css  */
